@@ -20,7 +20,8 @@ const router = createBrowserRouter([
       },
       {
         path:'books',
-        element:<Books></Books>
+        element:<Books></Books>,
+        loader:()=>fetch('https://api.itbook.store/1.0/search/mongodb')
       },
       {
         path:'order',
