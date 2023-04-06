@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Book = ({ book }) => {
-    console.log(book)
+    // console.log(book)
     const { title, image, price, isbn13, subtitle, url } = book
     return (
         <div className=''>
@@ -17,8 +18,7 @@ const Book = ({ book }) => {
                         <div>
                             <h1>{title}</h1>
                             <p>{price}</p>
-                            <p>{url }</p>
-                            <button className="btn btn-primary">Buy Now</button>
+                            <Link to={`/order/${isbn13}`}><button className="btn btn-primary">Buy Now</button></Link>
                         </div>
                     </div>
 

@@ -1,0 +1,13 @@
+.active{
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.not-active{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 20px;
+}

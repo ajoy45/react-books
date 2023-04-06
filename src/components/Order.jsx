@@ -1,9 +1,11 @@
 import React from 'react';
 
+
 const Order = () => {
+         
     return (
         <div>
-            <h1>this is order page</h1>
+            <h1>nothing more!!!</h1>
         </div>
     );
 };
